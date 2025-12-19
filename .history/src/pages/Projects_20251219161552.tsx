@@ -30,15 +30,15 @@ const projects: Project[] = [
     id: '3',
     image: '/images/guidebot.png',
     alt: 'Guidebot',
-    title: 'guidebot',
-    description: 'An autonomous robot project featuring advanced sensors and camera modules to get people where they need to go'
+    title: 'Project Three',
+    description: 'An autonomous robot project featuring advanced sensors and camera modules.'
   },
   {
     id: '4',
     image: '/images/Gemini_Generated_Image_hiqrr0hiqrr0hiqr.png',
     alt: 'Gemini Generated Image',
-    title: 'piano tiles',
-    description: 'built piano tiles in pygame'
+    title: 'Project Four',
+    description: 'A creative project showcasing innovative design and technology.'
   }
 ]
 
