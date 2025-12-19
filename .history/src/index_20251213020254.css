@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-white dark:bg-black text-gray-900 dark:text-gray-100 transition-colors duration-200;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    position: relative;
+  }
+}
+
+@layer components {
+  .mdx-content h1 {
+    @apply text-3xl font-semibold text-gray-900 dark:text-white mb-6;
+  }
+  
+  .mdx-content p {
+    @apply text-gray-700 dark:text-gray-300 leading-relaxed mb-4;
+  }
+  
+  .mdx-content p:last-child {
+    @apply mb-0;
+  }
+}
+
