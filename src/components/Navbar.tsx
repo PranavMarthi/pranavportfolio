@@ -1,6 +1,5 @@
 // src/components/Navbar.tsx
 import * as NavigationMenu from '@radix-ui/react-navigation-menu'
-// import { cn } from '../lib/cn'    
 
 export function Navbar() {
   return (
